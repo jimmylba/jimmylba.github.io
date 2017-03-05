@@ -2,8 +2,8 @@
 # SEO settings
 title: ""
 title2: "Jimmy Ba" # default: ""
-description: "Yet another researcher's home page."
-keywords: "jimmy ba, machine learning, research"
+description: "home page"
+keywords: "jimmy ba, deep learning, machine learning, research"
 url: http://jimmylba.github.io # site url
 #baseurl: "/jimmylba" # apply repo name if use it under gh-pages branch
 baseurl: null # apply null if repo name is something like username.github.io
