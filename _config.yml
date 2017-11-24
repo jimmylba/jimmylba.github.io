@@ -3,12 +3,12 @@
 title: ""
 title2: "Jimmy Ba" # default: ""
 description: "home page"
-keywords: "jimmy ba, deep learning, machine learning, research"
+keywords: "jimmy ba, deep learning, neural networks, machine learning"
 url: http://jimmylba.github.io # site url
 #baseurl: "/jimmylba" # apply repo name if use it under gh-pages branch
 baseurl: null # apply null if repo name is something like username.github.io
 
-google_analytics: UA-XXXXX-XX
+google_analytics: UA-110096440-1
 repo: http://jimmylba.github.io
 disqus_shortname: "jimmylba"
 twitter_username: "jimmylba"
@@ -30,20 +30,20 @@ sass:
 # Author settings
 author:
   name     : "Jimmy Ba"
-  job      : "PhD student"
-  bio      : "Blahh."
+  job      : "Assistant Professor"
+  bio      : "."
   thumb    : /images/author.jpg
-  email    : jimmy@psi.toronto.edu
+  email    : jimmy@cs.toronto.edu
   url      : http://jimmylba.github.io
-  #github   : http://github.com/heiswayi
-  #twitter  : http://twitter.com/HeiswayiNrird
-  #facebook : https://www.facebook.com/profile.php?id=1257583160
-  #linkedin : http://linkedin.com/in/nrird
+  #github   : http://github.com/jimmylba
+  #twitter  : http://twitter.com/jimmylba
+  #facebook : https://www.facebook.com/jimmyleiba
+  #linkedin : http://linkedin.com/in/jimmylba
 
 # social settings
 og_locale: "en_US"
 #twitter_card: "summary_large_image"
-#twitter_site: "@HeiswayiNrird"
+#twitter_site: "@jimmylba"
 
 gems:
   - bourbon

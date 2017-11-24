@@ -1,11 +1,22 @@
-
 <nav class="nav">
   <div class="container">
-    <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl }}"><span>{{ site.author.name }}</span></a></h1>
+    <div class="portrait"><img src="/assets/images/jimmy_ba.jpg"></div>
+    <div class="title">
+      <span class="titlespan">{{ site.author.name }}</span><br>
+      {{ site.author.job }} (Starting 2018)<br>
+      <a href="http://www.cs.toronto.edu/">Department of Computer Science</a><br>
+      <a href="http://www.cs.toronto.edu:40292/">Machine Learning Group</a><br>
+      <a href="http://www.toronto.edu/">University of Toronto</a><br>
+      <a href="http://www.vectorinstitute.ai/">Vector Institute</a><br>
+      <br>
+    </div>
+    <div style="clear:both;"></div>
+    <div style="text-align: left">
     <ul class="navbar">
-      <li><a href="#teaching">Teaching</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="{{ '/cv/cv.pdf' | prepend: site.baseurl }}">Curriculum vitæ</a></li>
-    </ul>
+        <li><a href="#teaching"><span>Teaching</span></a></li>
+        <li><a href="#publications"><span>Publications</span></a></li>
+        <li><a href="{{ '/cv/cv.pdf' | prepend: site.baseurl }}"><span>Curriculum vitæ</span></a></li>
+      </ul>
+    </div>
   </div>
 </nav>

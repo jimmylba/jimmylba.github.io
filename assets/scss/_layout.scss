@@ -44,6 +44,7 @@ hr {
   margin-right: auto;
   max-width: 800px;
   font-weight: normal;
+  position:relative;
 }
 
 .pull-left {
@@ -57,14 +58,14 @@ hr {
 .link {
   color: $blue-color;
   padding-bottom: .05em;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid transparent;
 
   @include transition(border 300ms linear);
 
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 2px solid $blue-color;
+    border-bottom: 1px solid $blue-color;
   }
 }
 
@@ -90,27 +91,32 @@ hr {
   }
 }
 
-.logo {
+.portrait {
   float: left;
   margin: 0 0 1em 0;
   cursor: pointer;
   letter-spacing: 0.8px;
-  font-size: 20px;
+  //font-size: 20px;
+  //font-size: 20px;
   line-height: 28px;
   font-weight: 300;
 
+  img {
+   height:200px;
+  }
   span {
-    font-weight: 700;
+   font-weight: 700;
   }
 }
 
 .nav {
-  min-height: 64px;
+  min-height: 254px;
 }
 
 .navbar {
-  float: right;
-  margin: 0;
+  //float: right;
+  display: inline-block;
+  margin: 0em 0 0 0;
   position: relative;
   padding: 0;
   pointer-events: all;
@@ -123,6 +129,36 @@ hr {
 
   a {
     @extend .link;
+  }
+  span {
+    font-weight: 700;
+  }
+}
+
+.titlespan {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title {
+  float: left;
+  margin-left: 1em;
+  //margin: 0;
+  position: relative;
+  padding: 0;
+  pointer-events: all;
+  cursor: pointer;
+
+  li {
+    display: inline-block;
+    padding: 0 .6em;
+  }
+
+  a {
+    @extend .link;
+  }
+  span {
+    font-weight: 700;
   }
 }
 
@@ -283,6 +319,23 @@ hr {
     &:active {
       border-bottom: 2px solid transparent;
       color: $blue-color;
+    }
+  }
+  .titlespan {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 10px;
+  }
+  .navbar {
+    font-size: 12px;
+  }
+  .nav {
+    min-height: 154px;
+  }
+  .portrait {
+    img{
+      height:120px;
     }
   }
 }

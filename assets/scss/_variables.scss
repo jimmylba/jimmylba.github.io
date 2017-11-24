@@ -1,5 +1,5 @@
 // Typography
-$base-font-family: 'DejaVu Sans Mono', monospace;
+$base-font-family: 'Times', sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -20,13 +20,14 @@ $primary-color: #000;
 $action-color: $primary-color;
 $white-color: #fff;
 $black-color: #000;
-$blue-color: #0086B3;
+//$blue-color: #0086B3;
+$blue-color: rgb(0,0,238);
 $dark-gray-color: #333;
 $medium-gray-color: #999;
 $light-gray-color: #ccc;
 
 // Font Colors
-$base-font-color: rgba($dark-gray-color, .8);
+$base-font-color: $black-color;
 
 // Border
 $base-border-color: $light-gray-color;
